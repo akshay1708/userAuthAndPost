@@ -33,7 +33,7 @@ router.get("/api/posts",isLoggedIn,function(req,res){
         });
     });
     router.post("/addpost",isLoggedIn,function(req,res){
-      console.log("inside/add");
+      //console.log("inside/add");
             var db = new mongoPost();
             var response = {};
 

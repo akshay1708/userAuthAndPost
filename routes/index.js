@@ -40,7 +40,7 @@ router.get('/register', function(req, res)
                  if (err) {
                      return next(err);
                  }
-                 res.redirect('/auth/index');
+                 res.redirect('/');
              });
          });
      });
